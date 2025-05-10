@@ -43,14 +43,15 @@ export default function AutoCarousel() {
               i === index ? "opacity-100 z-10" : "opacity-0 z-0"
             } flex justify-center items-center`}
           >
-              <Image
+            <Image
               src={img}
               alt={`Screenshot ${i + 1}`}
-              className="rounded-lg shadow-2xl object-contain w-full h-full"
-              fill
+              className="rounded-lg shadow-2xl object-cover text-center border border-white p-4"
+              height={200}
+              width={300}
               priority
             />
-          </div>
+            </div>
         ))}
 
         {/* Edge Fade */}
