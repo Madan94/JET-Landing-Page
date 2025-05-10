@@ -49,11 +49,9 @@ export default function AutoCarousel() {
               className="rounded-lg shadow-2xl object-cover text-center border border-white p-4"
               height={200}
               width={300}
-              priority
             />
             </div>
         ))}
-
         {/* Edge Fade */}
         <div className="absolute inset-x-0 top-0 h-full pointer-events-none bg-gradient-to-r from-gray-950 via-transparent to-gray-950 opacity-40" />
       </div>

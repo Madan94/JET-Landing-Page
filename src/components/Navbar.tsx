@@ -109,7 +109,7 @@ export const Navbar = () => {
                 className="w-full sm:w-auto text-center"
                 onClick={() => setMenuOpen(false)}
               >
-                <button className='bg-white py-2 px-4 rounded-lg text-black hover:bg-yellow-300 transition-colors w-full sm:w-auto'>
+                <button className='bg-white py-2 px-4 rounded-lg text-black hover:bg-yellow-300 transition-colors w-full sm:w-auto '>
                   Let&apos;s Talk
                 </button>
               </a>

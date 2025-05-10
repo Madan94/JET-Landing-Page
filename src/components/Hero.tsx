@@ -36,7 +36,9 @@ export const Hero = () => {
       </p>
       </div>
       <div className="flex justify-center mt-8">
-      <button className='bg-white text-black py-3 px-5 rounded-lg font-medium'>Explore Now ➣</button>
+      <a href="#marketplace">
+      <button className='bg-white text-black py-3 px-5 rounded-lg font-medium transition-all duration-300 shadow-[0_0_10px_#0ff,0_0_20px_#0ff,0_0_30px_#0ff] hover:shadow-[0_0_15px_#0ff,0_0_25px_#0ff,0_0_40px_#0ff]'>Explore Now ➣</button>  
+      </a>
       </div>
     </div>
     </div>
