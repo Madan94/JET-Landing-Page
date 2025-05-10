@@ -15,7 +15,7 @@ export function Banner() {
           ✨
           <span className="font-bold">
             {" "}
-            🚀 Our JET Mobile Application is Launching Soon on India and US. <a target="_blank" href="https://www.linkedin.com/company/just-everything/posts/?feedView=all">
+            🚀 Our JET Mobile Application is Launching Soon...<a target="_blank" href="https://www.linkedin.com/company/just-everything/posts/?feedView=all">
             <span className="text-yellow-500"> Join Our Waiting List</span>
             </a>
           </span>{" "}

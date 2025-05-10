@@ -70,7 +70,7 @@ export const CallToAction = () => {
       <Image src={EmojiImage} alt="emoji" className="absolute -top-[120px] right-[calc(100%+30px)]" />
       </motion.div>
         <h2 className="font-bold text-5xl sm:text-6xl tracking-tighter">Get Instant Connect</h2>
-        <p className="text-xl text-white/70  mt-5">Let`&apos`s Connect & Grow Together in AI and Blockchain Era.</p>
+        <p className="text-xl text-white/70  mt-5">Let&apos;s Connect & Grow Together in AI and Blockchain Era.</p>
         <form
           onSubmit={handleSubmit}
           className="mt-10 flex flex-col gap-6 max-w-xl mx-auto"
