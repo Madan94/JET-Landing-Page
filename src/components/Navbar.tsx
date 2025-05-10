@@ -16,7 +16,7 @@ export const Navbar = () => {
         <div className="container bg-black">
           <div className="py-4 flex items-center justify-between">
             <div className="relative">
-              <a href="#hero">
+              <a href="https://justeverything.app">
                 <h1 className="text-white text-2xl font-extrabold" style={{ background: 'linear-gradient(to right, #ffaa40, #9c40ff)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }}>JustEverything.</h1>
               </a>
             </div>
